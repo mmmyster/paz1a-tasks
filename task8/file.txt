@@ -1,0 +1,9 @@
+public int countChar(String retazec, char znak, int kys) {
+    int counter = 0;
+    for (int i = 0; i < retazec.length(); i++) {
+        if (retazec.charAt(i) == znak) {
+            counter++;
+        }
+    }
+    return counter;
+}
